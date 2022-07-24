@@ -34,4 +34,4 @@ api.add_resource(ContohResource, "/api", methods=["GET", "POST"])
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=False)
